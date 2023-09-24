@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 24px 16px 24px;
+}
+
+.banner-wrap {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto:best/Model-S-homepage-desktop");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    padding: 0 32px;
+    justify-content: space-between;
+}
+
+.nav-item {
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 85%;
+}
+.nav-item :hover {
+background-color: grey;
+}
+
+.logo {
+    height: 24px;
+    width: 120px;
+}
+
+main {
+    text-align: center;
+    height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-section {
+    margin-top: calc(164px - 56px);
+}
+
+.actions-area {
+    margin-bottom: 100px;
+}
+
+/* Style for CUSTOM ORDER button */
+button {
+    background-color: #1e1b1b;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 20px; /* Add margin to separate buttons */
+}
+
+/* Style for EXISTING INVENTORY button */
+button:last-child {
+    background-color: #faf8f8;
+    color: #130e0e;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
